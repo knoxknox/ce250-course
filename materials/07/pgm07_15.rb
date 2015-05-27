@@ -1,16 +1,16 @@
 class OrderedListAsLinkedList < OrderedList
 
-    class Cursor
+  class Cursor
 
-        def initialize(list, element)
-	    @list = list
-            @element = element
-	end
-
-        def datum
-            @element.datum
-	end
-
+    def initialize(list, element)
+      @list = list
+      @element = element
     end
+
+    def datum
+      @element.datum
+    end
+
+  end
 
 end

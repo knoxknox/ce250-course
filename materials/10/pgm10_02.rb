@@ -1,9 +1,9 @@
 class BinarySearchTree < BinaryTree
 
-    include SearchTreeMethods
+  include SearchTreeMethods
 
-    def initialize(*args)
-        super
-    end
+  def initialize(*args)
+    super
+  end
 
 end

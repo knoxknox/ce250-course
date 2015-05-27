@@ -1,7 +1,7 @@
 class Association
 
-    def hash
-	@key.hash
-    end
+  def hash
+    @key.hash
+  end
 
 end

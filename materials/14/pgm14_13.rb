@@ -1,5 +1,5 @@
 class RandomVariable < AbstractObject
 
-    abstractmethod :next
+  abstractmethod :next
 
 end

@@ -1,12 +1,12 @@
 class OrderedListAsLinkedList < OrderedList
 
-    def initialize
-	super
-        @linkedList = LinkedList.new
-    end
+  def initialize
+    super
+    @linkedList = LinkedList.new
+  end
 
-    attr_reader :linkedList
+  attr_reader :linkedList
 
-    attr_accessor :count
+  attr_accessor :count
 
 end

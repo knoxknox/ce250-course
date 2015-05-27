@@ -4,10 +4,10 @@ end
 
 class SortedList < OrderedList
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    include SortedListMethods
+  include SortedListMethods
 
 end

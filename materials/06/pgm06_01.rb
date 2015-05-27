@@ -1,13 +1,13 @@
 class Stack < Container
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    abstractmethod :push
+  abstractmethod :push
 
-    abstractmethod :pop
+  abstractmethod :pop
 
-    abstractmethod :top
+  abstractmethod :top
 
 end

@@ -1,9 +1,9 @@
 class SortedListAsArray < OrderedListAsArray
 
-    include SortedListMethods
+  include SortedListMethods
 
-    def initialize(size = 0)
-	super
-    end
+  def initialize(size = 0)
+    super
+  end
 
 end

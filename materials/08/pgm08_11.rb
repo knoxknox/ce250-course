@@ -1,18 +1,18 @@
 class ChainedScatterTable < HashTable
 
-    NULL = -1
+  NULL = -1
 
-    class Entry
+  class Entry
 
-        def initialize(obj, succ)
-            @obj = obj
-            @succ = succ
-	end
-
-	attr_accessor :obj
-
-	attr_accessor :succ
-
+    def initialize(obj, succ)
+      @obj = obj
+      @succ = succ
     end
+
+    attr_accessor :obj
+
+    attr_accessor :succ
+
+  end
 
 end

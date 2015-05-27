@@ -1,13 +1,13 @@
 class Solution < AbstractObject
 
-    abstractmethod :feasible?
+  abstractmethod :feasible?
 
-    abstractmethod :complete?
+  abstractmethod :complete?
 
-    abstractmethod :objective
+  abstractmethod :objective
 
-    abstractmethod :bound
+  abstractmethod :bound
 
-    abstractmethod :successors
+  abstractmethod :successors
 
 end

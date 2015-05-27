@@ -1,11 +1,11 @@
 class Cursor < AbstractObject
 
-    abstractmethod :datum
+  abstractmethod :datum
 
-    abstractmethod :insertAfter
+  abstractmethod :insertAfter
 
-    abstractmethod :insertBefore
+  abstractmethod :insertBefore
 
-    abstractmethod :withdraw
+  abstractmethod :withdraw
 
 end

@@ -1,11 +1,11 @@
 class OrderedList < SearchableContainer
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    abstractmethod :[]
+  abstractmethod :[]
 
-    abstractmethod :findPosition
+  abstractmethod :findPosition
 
 end

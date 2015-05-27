@@ -1,27 +1,27 @@
 module DequeMethods
 
-    abstractmethod :enqueueHead
+  abstractmethod :enqueueHead
 
-    abstractmethod :dequeueHead
+  abstractmethod :dequeueHead
 
-    abstractmethod :head
+  abstractmethod :head
 
-    abstractmethod :enqueueTail
+  abstractmethod :enqueueTail
 
-    abstractmethod :dequeueTail
+  abstractmethod :dequeueTail
 
-    abstractmethod :tail
+  abstractmethod :tail
 
 end
 
 class Deque < Queue
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    alias_method :queueHead, :head
-    include DequeMethods
-    alias_method :head, :queueHead
+  alias_method :queueHead, :head
+  include DequeMethods
+  alias_method :head, :queueHead
 
 end

@@ -1,14 +1,14 @@
 module MergeablePriorityQueueMethods
 
-    abstractmethod :merge!
+  abstractmethod :merge!
 end
 
 class MergeablePriorityQueue < PriorityQueue
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    include MergeablePriorityQueueMethods
+  include MergeablePriorityQueueMethods
 
 end

@@ -1,19 +1,19 @@
 class Tree < Container
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    abstractmethod :key
+  abstractmethod :key
 
-    abstractmethod :getSubtree
+  abstractmethod :getSubtree
 
-    abstractmethod :empty?
+  abstractmethod :empty?
 
-    abstractmethod :leaf?
+  abstractmethod :leaf?
 
-    abstractmethod :degree
+  abstractmethod :degree
 
-    abstractmethod :height
+  abstractmethod :height
 
 end

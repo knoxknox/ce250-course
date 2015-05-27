@@ -1,13 +1,13 @@
 class Queue < Container
 
-    def initialize
-        super
-    end
+  def initialize
+    super
+  end
 
-    abstractmethod :enqueue
+  abstractmethod :enqueue
 
-    abstractmethod :dequeue
+  abstractmethod :dequeue
 
-    abstractmethod :head
+  abstractmethod :head
 
 end

@@ -1,19 +1,19 @@
 module PriorityQueueMethods
 
-    abstractmethod :enqueue
+  abstractmethod :enqueue
 
-    abstractmethod :min
+  abstractmethod :min
 
-    abstractmethod :dequeueMin
+  abstractmethod :dequeueMin
 
 end
 
 class PriorityQueue < Container
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    include PriorityQueueMethods
+  include PriorityQueueMethods
 
 end

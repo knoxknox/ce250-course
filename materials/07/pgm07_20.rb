@@ -1,13 +1,13 @@
 class Polynomial < Container
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    abstractmethod :addTerm
+  abstractmethod :addTerm
 
-    abstractmethod :differentiate!
+  abstractmethod :differentiate!
 
-    abstractmethod :+
+  abstractmethod :+
 
 end

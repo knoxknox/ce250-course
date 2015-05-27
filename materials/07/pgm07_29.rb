@@ -1,9 +1,9 @@
 class SortedListAsLinkedList < OrderedListAsLinkedList
 
-    include SortedListMethods
+  include SortedListMethods
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
 end

@@ -1,20 +1,20 @@
 class DequeAsLinkedList < QueueAsLinkedList
 
-    alias_method :queueHead, :head
+  alias_method :queueHead, :head
 
-    include DequeMethods
+  include DequeMethods
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    alias_method :head, :queueHead
+  alias_method :head, :queueHead
 
-    def enqueueHead(obj)
-        @list.prepend(obj)
-        @count += 1
-    end
+  def enqueueHead(obj)
+    @list.prepend(obj)
+    @count += 1
+  end
 
-    alias_method :dequeueHead, :dequeue
+  alias_method :dequeueHead, :dequeue
 
 end

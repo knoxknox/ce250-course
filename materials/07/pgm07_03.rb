@@ -1,12 +1,12 @@
 class OrderedListAsArray < OrderedList
 
-    def initialize(size = 0)
-	super()
-        @array = Array.new(size)
-    end
+  def initialize(size = 0)
+    super()
+    @array = Array.new(size)
+  end
 
-    attr_reader :array
+  attr_reader :array
 
-    attr_accessor :count
+  attr_accessor :count
 
 end

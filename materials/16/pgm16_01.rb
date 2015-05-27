@@ -1,19 +1,19 @@
 class Vertex < AbstractObject
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    abstractmethod :number
+  abstractmethod :number
 
-    abstractmethod :weight
+  abstractmethod :weight
 
-    abstractmethod :incidentEdges
+  abstractmethod :incidentEdges
 
-    abstractmethod :emanatingEdges
+  abstractmethod :emanatingEdges
 
-    abstractmethod :predecessors
+  abstractmethod :predecessors
 
-    abstractmethod :successors
+  abstractmethod :successors
 
 end

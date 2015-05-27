@@ -1,7 +1,7 @@
 class SimpleRV < RandomVariable
 
-    def next
-        RandomNumberGenerator.instance.next
-    end
+  def next
+    RandomNumberGenerator.instance.next
+  end
 
 end

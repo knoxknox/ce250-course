@@ -1,11 +1,11 @@
 class PrePostVisitor < Visitor
 
-    abstractmethod :preVisit
+  abstractmethod :preVisit
 
-    abstractmethod :inVisit
+  abstractmethod :inVisit
 
-    abstractmethod :postVisit
+  abstractmethod :postVisit
 
-    alias_method :visit, :inVisit
+  alias_method :visit, :inVisit
 
 end

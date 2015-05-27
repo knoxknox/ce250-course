@@ -1,8 +1,8 @@
 class QuickSorter < Sorter
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    abstractmethod :selectPivot
+  abstractmethod :selectPivot
 end

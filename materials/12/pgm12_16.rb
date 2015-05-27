@@ -1,11 +1,11 @@
 class Partition < Set
 
-    def initialize(n)
-	super
-    end
+  def initialize(n)
+    super
+  end
 
-    abstractmethod :find
+  abstractmethod :find
 
-    abstractmethod :join
+  abstractmethod :join
 
 end

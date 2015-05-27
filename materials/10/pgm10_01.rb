@@ -1,18 +1,18 @@
 module SearchTreeMethods
 
-    abstractmethod :min
+  abstractmethod :min
 
-    abstractmethod :max
+  abstractmethod :max
 
 end
 
 class SearchTree < Tree
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    include SearchableContainerMethods
-    include SearchTreeMethods
+  include SearchableContainerMethods
+  include SearchTreeMethods
 
 end

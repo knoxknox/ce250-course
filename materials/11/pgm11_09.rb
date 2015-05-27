@@ -1,7 +1,7 @@
 class LeftistHeap < BinaryTree
 
-    def enqueue(obj)
-        merge!(LeftistHeap.new(obj))
-    end
+  def enqueue(obj)
+    merge!(LeftistHeap.new(obj))
+  end
 
 end

@@ -1,12 +1,12 @@
 class OrderedListAsLinkedList < OrderedList
 
-    class Cursor < Cursor
+  class Cursor < Cursor
 
-        def insertAfter(obj)
-            @element.insertAfter(obj)
-            @list.count += 1
-	end
-
+    def insertAfter(obj)
+      @element.insertAfter(obj)
+      @list.count += 1
     end
+
+  end
 
 end

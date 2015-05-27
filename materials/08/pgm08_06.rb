@@ -1,13 +1,13 @@
 class HashTable < SearchableContainer
 
-    def initialize
-	super
-    end
+  def initialize
+    super
+  end
 
-    abstractmethod :length
+  abstractmethod :length
 
-    def loadFactor
-        return count / length
-    end
+  def loadFactor
+    return count / length
+  end
 
 end

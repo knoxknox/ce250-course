@@ -1,7 +1,7 @@
 class Multiset < Set
 
-    def initialize(universeSize)
-	super
-    end
+  def initialize(universeSize)
+    super
+  end
 
 end
