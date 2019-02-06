@@ -1,3 +1,4 @@
+# 02
 class Module
 
   def abstractmethod(symbol)
