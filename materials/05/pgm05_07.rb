@@ -1,3 +1,4 @@
+# 07
 class Visitor < AbstractObject
   abstractmethod :visit
 
