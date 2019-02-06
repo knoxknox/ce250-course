@@ -1,3 +1,4 @@
+# 01
 class AbstractObject < ::Object
   include ::Comparable
 
