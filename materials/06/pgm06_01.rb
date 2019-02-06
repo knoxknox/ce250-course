@@ -1,3 +1,4 @@
+# 01
 class Stack < Container
 
   def initialize
