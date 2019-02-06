@@ -1,3 +1,4 @@
+# 18
 module DequeMethods
 
   abstractmethod :enqueueHead
