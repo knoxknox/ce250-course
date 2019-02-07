@@ -1,3 +1,4 @@
+# 20
 class OpenScatterTableV2 < OpenScatterTable
 
   def initialize(length = 0)
