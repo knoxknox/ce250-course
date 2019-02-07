@@ -1,3 +1,4 @@
+# 02
 class Cursor < AbstractObject
 
   abstractmethod :datum
