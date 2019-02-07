@@ -35,3 +35,12 @@ class Association
   end
 
 end
+
+# 08:05
+class Association
+
+  def hash
+    @key.hash
+  end
+
+end
