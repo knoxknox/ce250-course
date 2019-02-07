@@ -1,3 +1,4 @@
+# 32
 class PolynomialAsSortedList < Polynomial
 
   def initialize
