@@ -1,3 +1,4 @@
+# 22
 module Algorithms
 
   def Algorithms.translate(dictionary, input, output)
