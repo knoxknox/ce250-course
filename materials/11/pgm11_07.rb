@@ -1,3 +1,4 @@
+# 07
 class LeftistHeap < BinaryTree
 
   include PriorityQueueMethods
@@ -23,5 +24,57 @@ class LeftistHeap < BinaryTree
   attr_accessor :right
 
   attr_accessor :nullPathLength
+
+end
+
+# 08
+class LeftistHeap < BinaryTree
+
+  def merge!(queue)
+    if empty?
+      swapContentsWith(queue)
+    elsif not queue.empty?
+      swapContentsWith(queue) if @key > queue.key
+      @right.merge!(queue)
+      swapSubtrees if \
+    @left.nullPathLength < @right.nullPathLength
+      @nullPathLength = 1 + \
+    [@left.nullPathLength, @right.nullPathLength].min
+    end
+  end
+end
+
+# 09
+class LeftistHeap < BinaryTree
+
+  def enqueue(obj)
+    merge!(LeftistHeap.new(obj))
+  end
+
+end
+
+# 10
+class LeftistHeap < BinaryTree
+
+  def min
+    raise ContainerEmpty if empty?
+    return @key
+  end
+
+end
+
+# 11
+class LeftistHeap < BinaryTree
+
+  def dequeueMin
+    raise ContainerEmpty if empty?
+    result = @key
+    oldLeft = @left
+    oldRight = @right
+    purge
+    swapContentsWith(oldLeft)
+    merge!(oldRight)
+    return result
+  end
 
 end
