@@ -1,5 +1,5 @@
+# 02
 module MergeablePriorityQueueMethods
-
   abstractmethod :merge!
 end
 
@@ -10,5 +10,4 @@ class MergeablePriorityQueue < PriorityQueue
   end
 
   include MergeablePriorityQueueMethods
-
 end
