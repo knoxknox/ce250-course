@@ -1,11 +1,8 @@
+# 01
 module PriorityQueueMethods
-
   abstractmethod :enqueue
-
   abstractmethod :min
-
   abstractmethod :dequeueMin
-
 end
 
 class PriorityQueue < Container
@@ -15,5 +12,4 @@ class PriorityQueue < Container
   end
 
   include PriorityQueueMethods
-
 end
