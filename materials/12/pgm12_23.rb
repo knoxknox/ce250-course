@@ -1,3 +1,4 @@
+# 23
 class PartitionAsForestV3 < PartitionAsForestV2
 
   def join(s, t)
