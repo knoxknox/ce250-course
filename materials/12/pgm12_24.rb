@@ -1,3 +1,4 @@
+# 24
 module Algorithms
 
   def Algorithms.equivalenceClasses(input, output)
