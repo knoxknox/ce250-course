@@ -1,3 +1,4 @@
+# 16
 class Partition < Set
 
   def initialize(n)
@@ -5,7 +6,5 @@ class Partition < Set
   end
 
   abstractmethod :find
-
   abstractmethod :join
-
 end
