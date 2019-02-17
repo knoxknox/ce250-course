@@ -1,3 +1,4 @@
+# 02
 class Edge < AbstractObject
 
   def initialize
