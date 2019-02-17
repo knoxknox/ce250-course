@@ -1,3 +1,4 @@
+# 08
 class GraphAsLists < Graph
 
   def initialize(size)
