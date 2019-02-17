@@ -1,3 +1,4 @@
+# 09
 class StraightSelectionSorter < Sorter
 
   def initialize

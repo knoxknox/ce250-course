@@ -1,3 +1,4 @@
+# 01
 class Sorter < AbstractObject
 
   def initialize

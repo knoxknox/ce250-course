@@ -1,3 +1,4 @@
+# 02
 class StraightInsertionSorter < Sorter
 
   def initialize

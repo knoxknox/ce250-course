@@ -1,3 +1,4 @@
+# 03
 class BinaryInsertionSorter < Sorter
 
   def initialize
