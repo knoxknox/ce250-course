@@ -1,3 +1,4 @@
+# 07
 class GraphAsMatrix < Graph
 
   def initialize(size)
