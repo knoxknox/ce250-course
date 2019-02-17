@@ -1,3 +1,4 @@
+# 01
 class Vertex < AbstractObject
 
   def initialize
